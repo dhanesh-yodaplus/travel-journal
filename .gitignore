@@ -1,0 +1,34 @@
+# dependencies
+/node_modules
+
+# production
+/dist
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# system
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs & editors
+.vscode/
+.idea/
+
+# optional
+coverage/
+*.log
+
+# macOS file system metadata
+.AppleDouble
+.LSOverride
+Icon?
+
+# Vite cache
+/.vite
